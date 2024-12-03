@@ -1,0 +1,68 @@
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: grey;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.button {
+    padding: 20px;
+    color: black;
+    background-color: #E3E3E3;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #CCCCCC;
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3E3E3;
+}
+
+.pageTitle {
+    padding: 200px;
+    margin: 100px;
+    align-content: center;
+    background-color: aliceblue;
+}
+
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageResize {
+    max-width: max-content;
+    max-height: 500px;
+    min-width: none;
+    min-height: none;
+    padding: 10px;
+}
+
+.tableBG {
+    background-color: aliceblue;
+}
+
+.pad {
+    padding: 50px;
+}
